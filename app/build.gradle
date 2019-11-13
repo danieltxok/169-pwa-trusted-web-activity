@@ -22,14 +22,14 @@ android {
         applicationId "com.learnpwa.app"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 5
+        versionCode 6
         versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [
                 // The hostname is used when building the intent-filter, so the TWA is able to
                 // handle Intents to open https://svgomg.firebaseapp.com.
                 hostName: "full-pwa-steps.glitch.me",
-                defaultUrl: "https://full-pwa-steps.glitch.me/",
+                defaultUrl: "https://full-pwa-steps.glitch.me/?source=twa",
                 launcherName: "Learn PWA",
                 // This variable below expresses the relationship between the app and the site,
                 // as documented in the TWA documentation at
